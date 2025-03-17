@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.header {
+    background: red;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navigation {
+    background: orange;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.main {
+    background: green;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 90%;
+}
+
+.article {
+    background: blue;
+    font-size: 1.5rem;
+}
+
+.main h2 {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.main ul {
+    padding: 20px 50px;
+}
+
+.main ol {
+    padding: 20px 50px;
+}
+
+.footer {
+    background: purple;
+    height: 10%;
+    text-align: center;
+    padding-top: 30px;
+}
