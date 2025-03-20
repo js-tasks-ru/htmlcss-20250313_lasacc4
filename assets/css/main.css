@@ -1,5 +1,6 @@
 @import '../../node_modules/modern-normalize/modern-normalize.css';
 @import '../fonts/fonts.css';
+@import "../../components/page/page.css";
 
 :root {
     --white: #ffffff;
@@ -12,6 +13,7 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-bg: #F9FAFC;
 
     --error: var(--red);
     --success: var(--blue);
@@ -21,5 +23,15 @@
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: Inter, sans-serif;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
 }

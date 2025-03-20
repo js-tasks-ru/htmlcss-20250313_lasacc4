@@ -1,0 +1,11 @@
+@import "../header/header.css";
+@import "../main/main.css";
+@import "../footer/footer.css";
+
+.page {
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+}
+
+
