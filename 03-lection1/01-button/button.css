@@ -2,6 +2,7 @@
 
 .btn {
     font-family: Roboto, "sans-serif";
+    height: 48px;
     font-weight: 500;
     font-size: 16px;
     border-radius: 8px;
@@ -17,32 +18,31 @@
 .btn:disabled {
     opacity: 0.5;
     pointer-events: none;
-    cursor: not-allowed;
 }
 
-.btn__primary {
+.btn_primary {
     background-color: var(--primary);
 }
 
-.btn__primary:hover {
+.btn_primary:hover {
     background-color: var(--primary-dark);
 }
 
-.btn__secondary {
+.btn_secondary {
     background-color: var(--secondary);
 }
 
-.btn__secondary:hover {
+.btn_secondary:hover {
     background-color: var(--secondary-dark);
 }
 
-.btn__alternate {
+.btn_alternate {
     background: none;
     border: 1px solid var(--grey-3);
     color: var(--black);
 }
 
-.btn__alternate:hover {
+.btn_alternate:hover {
     border: 1px solid var(--black);
 }
 
