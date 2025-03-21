@@ -1,0 +1,4 @@
+.main {
+    background: var(--grey-bg);
+    height: 70vh; /* временное для отображения без контента */
+}
