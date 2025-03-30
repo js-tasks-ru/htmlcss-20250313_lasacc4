@@ -21,6 +21,14 @@
     --grey-4: #495057;
     --grey-bg: #F9FAFC;
 
+    --fz-sm: 16px;
+    --fz-md: 20px;
+
+    --fw-sm: 400;
+
+    --lh-sm: 24px;
+    --lh-md: 26px;
+
     --error: var(--red);
     --success: var(--blue);
 
