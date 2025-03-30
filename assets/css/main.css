@@ -5,6 +5,8 @@
 @import "../../components/main/main.css";
 @import "../../components/footer/footer.css";
 @import "../../components/page/page.css";
+@import "../../components/card/card.css";
+@import "../../components/histogram/histogram.css";
 
 :root {
     --white: #ffffff;
@@ -25,6 +27,7 @@
     --fz-md: 20px;
 
     --fw-sm: 400;
+    --fw-md: 500;
 
     --lh-sm: 24px;
     --lh-md: 26px;
@@ -49,4 +52,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 a {
     text-decoration: none;
+}
+
+html, body {
+    height: 100%;
 }
