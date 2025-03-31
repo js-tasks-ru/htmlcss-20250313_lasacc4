@@ -10,7 +10,6 @@
 }
 
 .card__name {
-    font-family: Roboto, sans-serif;
     font-weight: var(--fw-md);
     font-size: var(--fz-md);
     line-height: 25px;
