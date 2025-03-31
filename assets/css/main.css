@@ -5,6 +5,7 @@
 @import "../../components/main/main.css";
 @import "../../components/footer/footer.css";
 @import "../../components/page/page.css";
+@import "../../components/button/button.css";
 
 :root {
     --white: #ffffff;
@@ -14,12 +15,15 @@
     --purple-2: #5028C6;
     --blue: #4263EB;
     --blue-1: #2342C0;
+    --blue-2: #334D6E;
     --red: #F03D3E;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
     --grey-bg: #F9FAFC;
+
+    --modal-overylay-color: #C4C4C4;
 
     --error: var(--red);
     --success: var(--blue);
@@ -35,6 +39,6 @@ body {
     font-family: Inter, sans-serif;
 }
 
-h1, h2, p {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
