@@ -21,6 +21,8 @@
     --grey-4: #495057;
     --grey-bg: #F9FAFC;
 
+    --arrow-border-width: 10px;
+
     --error: var(--red);
     --success: var(--blue);
 
