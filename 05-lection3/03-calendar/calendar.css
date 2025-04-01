@@ -5,7 +5,7 @@
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     text-align: center;
-    padding: 28px 30px 40px 30px;
+    padding: 28px 26px 32px;
     font-family: 'Inter', sans-serif;
 }
 
@@ -21,7 +21,7 @@
 .calendar__content {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     position: absolute;
     top: 0;
     left: 0;
@@ -31,7 +31,6 @@
 
 .calendar__wrapper {
     padding-bottom: 100%;
-    width: 100%;
     position: relative;
 }
 
