@@ -19,7 +19,6 @@
     font-weight: var(--fw-sm);
     color: var(--black);
     opacity: 0.8;
-    margin-top: 3px;
 }
 
 .histogram__link {
@@ -28,6 +27,7 @@
     font-weight: var(--fw-sm);
     text-align: right;
     color: var(--blue);
+    margin-top: 3px;
 }
 
 .histogram__counter {
