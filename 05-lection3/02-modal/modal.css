@@ -1,22 +1,18 @@
 .modal {
     display: none;
     font-family: 'Inter', sans-serif;
-}
-
-.modal__overlay {
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    opacity: 50%;
-    background-color: var(--modal-overylay-color);
+    background-color: rgba(51, 36, 36, 0.5);
 }
 
 .modal__content {
     background: var(--white);
     border-radius: 8px;
-    position: fixed;
+    position: absolute;
     padding: 30px 40px 33px 40px;
     max-width: 428px;
     top: 50%;
