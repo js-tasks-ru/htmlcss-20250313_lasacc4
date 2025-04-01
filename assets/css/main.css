@@ -29,6 +29,8 @@
     --lh-sm: 24px;
     --lh-md: 26px;
 
+    --arrow-border-width: 10px;
+
     --error: var(--red);
     --success: var(--blue);
 
