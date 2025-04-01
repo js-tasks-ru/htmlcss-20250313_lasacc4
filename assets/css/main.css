@@ -23,6 +23,14 @@
     --grey-4: #495057;
     --grey-bg: #F9FAFC;
 
+    --fz-sm: 16px;
+    --fz-md: 20px;
+
+    --fw-sm: 400;
+
+    --lh-sm: 24px;
+    --lh-md: 26px;
+
     --modal-overylay-color: #C4C4C4;
 
     --error: var(--red);
@@ -36,9 +44,13 @@
 }
 
 body {
-    font-family: Inter, sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
+}
+
+a {
+    text-decoration: none;
 }
