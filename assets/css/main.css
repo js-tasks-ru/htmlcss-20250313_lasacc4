@@ -5,6 +5,8 @@
 @import "../../components/main/main.css";
 @import "../../components/footer/footer.css";
 @import "../../components/page/page.css";
+@import "../../components/card/card.css";
+@import "../../components/histogram/histogram.css";
 @import "../../components/button/button.css";
 
 :root {
@@ -16,20 +18,25 @@
     --blue: #4263EB;
     --blue-1: #2342C0;
     --blue-2: #334D6E;
+    --blue-3: #A0B1F5;
     --red: #F03D3E;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-5: #90A0B7;
     --grey-bg: #F9FAFC;
 
     --fz-sm: 16px;
     --fz-md: 20px;
 
     --fw-sm: 400;
+    --fw-md: 500;
 
     --lh-sm: 24px;
     --lh-md: 26px;
+
+    --arrow-border-width: 10px;
 
     --error: var(--red);
     --success: var(--blue);
@@ -51,4 +58,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 a {
     text-decoration: none;
+}
+
+html, body {
+    height: 100%;
 }

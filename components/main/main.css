@@ -1,4 +1,17 @@
 .main {
     background: var(--grey-bg);
-    height: 70vh; /* временное для отображения без контента */
+    padding: 68px 0;
+}
+
+.main__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.main__card {
+    flex-grow: 1;
+    width: 350px;
+    height: 367px;
 }
