@@ -1,5 +1,6 @@
 .footer {
-    padding: 72px 0;
+    display: none;
+    position: absolute;
 }
 
 .footer__content {
@@ -17,10 +18,34 @@
     margin-bottom: 32px;
 }
 
+.footer__title_sm {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ACB5BD;
+    margin-bottom: 0;
+}
+
 .footer__description {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: var(--black);
+}
+
+.footer_secondary {
+    background: var(--grey-bg);
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 72px 0;
+        display: block;
+        position: static;
+    }
 }
