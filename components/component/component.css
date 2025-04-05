@@ -1,0 +1,27 @@
+.component {
+    min-height: 746px;
+    padding: 32px 48px 0 48px;
+    background: var(--white);
+    box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+}
+
+.component__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--grey-4);
+}
+
+@media screen and (min-width: 768px) {
+    .component {
+        padding: 32px 16px 0 16px;
+    }
+
+    .component__title {
+        font-size: 20px;
+        line-height: 26px;
+        align-self: flex-start;
+    }
+}
