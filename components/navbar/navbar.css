@@ -12,11 +12,11 @@
     cursor: pointer;
 }
 
-.navbar__item a {
+.navbar__link {
     color: var(--black);
 }
 
-.navbar__item_active a {
+.navbar__link_active {
     color: var(--orange);
 }
 
