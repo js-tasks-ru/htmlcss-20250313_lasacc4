@@ -10,24 +10,42 @@
 </head>
 <body>
 <div class="page">
-  <header class="header component__header"></header>
-  <main class="component page__main">
-    <div class="container component__container">
+  <div class="container">
+    <header class="header header_secondary">
+      <section class="header__top">
+        <div class="header__left">
+          <svg class="header__item">
+            <use xlink:href="../assets/images/icons.svg#square"></use>
+          </svg>
+
+          <svg class="header__item">
+            <use xlink:href="../assets/images/icons.svg#circle"></use>
+          </svg>
+
+          <svg class="header__item">
+            <use xlink:href="../assets/images/icons.svg#triangle"></use>
+          </svg>
+        </div>
+      </section>
+    </header>
+  </div>
+  <main class="main main_secondary page__main">
+    <div class="container container_grid">
       <aside class="sidebar">
         <h4 class="sidebar__title">Components</h4>
-        <nav>
-          <ul class="sidebar__list">
-            <li class="sidebar__item">Modal</li>
-            <li class="sidebar__item">Tooltip</li>
-            <li class="sidebar__item">Avatar</li>
-            <li class="sidebar__item">Calendar</li>
-            <li class="sidebar__item sidebar__item_active">Histogram</li>
-            <li class="sidebar__item">Custom form elements</li>
-            <li class="sidebar__item sidebar__item_last">Main page</li>
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item"><a href="#">Modal</a></li>
+            <li class="navbar__item"><a href="#">Tooltip</a></li>
+            <li class="navbar__item"><a href="#">Avatar</a></li>
+            <li class="navbar__item"><a href="#">Calendar</a></li>
+            <li class="navbar__item navbar__item_active"><a href="#">Histogram</a></li>
+            <li class="navbar__item"><a href="#">Custom form elements</a></li>
+            <li class="navbar__item navbar__item_last"><a href="#">Main page</a></li>
           </ul>
         </nav>
       </aside>
-      <section class="component__content">
+      <section class="component">
         <h4 class="component__title">Histogram</h4>
         <div class="component__element"></div>
       </section>

@@ -10,6 +10,7 @@
 @import "../../components/button/button.css";
 @import "../../components/sidebar/sidebar.css";
 @import "../../components/component/component.css";
+@import "../../components/navbar/navbar.css";
 
 :root {
     --white: #ffffff;

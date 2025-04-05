@@ -1,0 +1,26 @@
+.navbar__list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.navbar__item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.navbar__item a {
+    color: var(--black);
+}
+
+.navbar__item_active a {
+    color: var(--orange);
+}
+
+.navbar__item_last {
+    margin-top: 26px;
+}
+

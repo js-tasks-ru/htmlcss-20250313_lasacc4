@@ -1,0 +1,14 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"  style="display: none;">
+    <symbol id="square" viewBox="0 0 30 32">
+        <rect width="30" height="30" fill="#212429"/>
+    </symbol>
+
+    <symbol id="circle" viewBox="0 0 32 32">
+        <rect width="32" height="32" rx="16" fill="#212429"/>
+    </symbol>
+
+    <symbol id="triangle" viewBox="0 0 30 32">
+        <path d="M0 0L32 32H0V0Z" fill="#212429"/>
+    </symbol>
+</svg>

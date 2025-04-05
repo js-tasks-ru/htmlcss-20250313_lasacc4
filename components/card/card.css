@@ -2,6 +2,8 @@
     background: var(--white);
     box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 12px;
+    flex-grow: 1;
+    height: 210px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -41,6 +43,7 @@
     }
 
     .card {
+        height: 367px;
         padding: 80px 24px 30px 24px;
     }
 

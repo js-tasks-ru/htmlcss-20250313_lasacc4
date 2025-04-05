@@ -12,29 +12,6 @@
     margin-bottom: 16px;
 }
 
-.sidebar__list {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-
-.sidebar__item {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    color: var(--black);
-    cursor: pointer;
-}
-
-.sidebar__item_last {
-    margin-top: 26px;
-}
-
-.sidebar__item_active {
-    color: var(--orange);
-}
-
 @media screen and (min-width: 768px) {
     .sidebar {
         display: block;
